@@ -1,0 +1,174 @@
+General Body and App Styling */
+.stApp {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); /* Subtle gradient background */
+    font-family: 'Montserrat', sans-serif; /* Modern font */
+    color: #333;
+    padding: 0 !important; /* Remove default padding */
+}
+
+/* Ensure the main content area expands */
+.css-1d391kg { /* This is a common class for the main content block */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 1200px; /* Max width for readability */
+    margin: auto; /* Center the content */
+}
+
+/* Header and Title Styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50; /* Dark blue for headings */
+    margin-bottom: 0.5em;
+    font-weight: 700; /* Bold headings */
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #2980b9; /* A vibrant blue for the main title */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #3498db; /* Underline effect */
+    padding-bottom: 10px;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* Subheader Styling (e.g., for "Hi, I am...") */
+.st-emotion-cache-1f0f3hv { /* Target specific subheader class if needed */
+    color: #3498db; /* A lighter blue */
+    font-weight: 600;
+}
+
+/* Container Styling (for sections like About, Skills, Projects) */
+.st-emotion-cache-zt5ig8 { /* Common class for st.container */
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Subtle border */
+}
+
+/* Button Styling (for st.link_button) */
+div.stLinkButton > a {
+    background-color: #3498db; /* Blue */
+    color: white !important;
+    border-radius: 8px; /* More rounded buttons */
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+div.stLinkButton > a:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+}
+
+/* Horizontal Rule (separator) 
+hr {
+    border-top: 2px solid #e0e0e0;
+    margin: 3em 0;
+}
+
+/* Skill Badges (New style for skills) */
+.skill-badge {
+    display: inline-block;
+    background-color: #ecf0f1; /* Light gray background */
+    color: #2c3e50; /* Dark text */
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px; /* Pill shape */
+    font-size: 0.95em;
+    font-weight: 500;
+    border: 1px solid #bdc3c7;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.skill-badge:hover {
+    background-color: #3498db; /* Blue on hover */
+    color: white;
+}
+
+/* Custom icon styling for skills (if using specific icons) */
+.skill-icon {
+    margin-right: 5px;
+    font-size: 1.1em;
+}
+
+/* Info Box Styling */
+.st-emotion-cache-1c7y3q { /* Target for st.info background */
+    background-color: #e8f4f8; /* Very light blue */
+    border-left: 5px solid #3498db; /* Blue border */
+    color: #2c3e50; /* Darker text */
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* Text alignment for paragraphs */
+p {
+    line-height: 1.7;
+    margin-bottom: 1em;
+}
+
+/* Adjustments for columns to ensure content aligns */
+div[data-testid="stColumn"] {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer Styling */
+.footer-text {
+    text-align: center;
+    color: #7f8c8d;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+/* Custom styling for tabs to make them more prominent */
+.st-emotion-cache-10q750k { /* Tab container */
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    padding: 5px;
+}
+
+.st-emotion-cache-l9rw6y { /* Individual tab button */
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #7f8c8d;
+    transition: all 0.3s ease;
+}
+
+.st-emotion-cache-l9rw6y.st-emotion-cache-1c7y3q { /* Selected tab button */
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Ensure Font Awesome is loaded if you plan to use icons */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+/* You might also need to include Font Awesome CSS if using specific icons */
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
