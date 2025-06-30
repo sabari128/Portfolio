@@ -31,7 +31,7 @@ with st.container():
     st.write(
         """
         A dedicated and passionate individual committed to excellence,
-        with a strong background in **Python, SQL, and Data Analyst*.
+        with a strong background in **Python, SQL, and Data Analyst**.
         I leverage an innovative mindset and problem-solving skills to achieve outstanding results.
         Dedicated to continuous learning and professional growth, I thrive on tackling complex challenges
         and exemplify leadership and expertise.
