@@ -463,7 +463,7 @@ if "Home" in page:
         <div class="profile-avatar">👨‍💻</div>
         <div class="profile-name">SABARINATHAN S</div>
         <div class="profile-title">Software &amp; Automation Engineer</div>
-        <div class="profile-title">Software Python | Selenium | Power Automate | RPA</div>
+        <div class="profile-title">Python | Selenium | Power Automate | RPA</div>
         <div class="hero-chips">
             <span>🐍 Python</span><span>🤖 RPA</span><span>🧪 Selenium</span>
             <span>⚡ Power Automate</span><span>🎭 Playwright</span>
